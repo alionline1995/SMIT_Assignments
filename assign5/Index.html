@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="2" width="100%">
+        <tr bgcolor="#ADD8E6">
+            <td align="center">Page Content</td>
+            <td>
+                <form>
+                    <P><h3>Patient Details:</h3></P>
+
+                    <p><label for="pname">Patient Name:</label>
+                       <input type="text" id="pname" placeholder="Patient Name"></br></p>
+                    
+                    <p><label for="guardianname">Father / Husband Name:</label>
+                       <input type="password" id="guardianname" placeholder="Guardian Name"></br></p>
+                    
+                    <p><label for="dob">Date of Birth:</label>
+                       <input type="date" id="dob" placeholder="date"></br></p>
+                    
+                    <p>Patient Gender:</p>
+                    <p><input type="radio" id="male" name="Gender" value="Male">
+                       <label for="male">Male:</label></br></p>
+
+                    <p><input type="radio" id="fmale" name="Gender" value="Female">
+                       <label for="fmale">Female:</label></br></p>
+                </form>
+            </td>
+            <td align="center">
+                <form>
+                        <h4>Facility Availed:</h4>
+                        <select id="Facility" name="Facility">
+                        <option value="Emergency">Emergency</option>
+                        <option value="OPD">O.P.D</option>
+                        <option value="therapy">Physiotherapy</option>
+                        <option value="Test">Test</option>
+                        <option value="Xray">Xray</option>
+                        </select>
+                        <input type="submit" value="Confirm">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
